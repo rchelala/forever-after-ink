@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.brilliancetattoo.com)"
+      "WebFetch(domain:www.brilliancetattoo.com)",
+      "Bash(mv \"07_08_12_Reel.MOV\" \"07-08-12-reel.mov\")",
+      "Bash(mv \"444_Reel.MOV\" \"444-reel.mov\")",
+      "Bash(mv \"BK_Reel.MOV\" \"bk-reel.mov\")",
+      "Bash(mv \"Bicycle_Reel.MOV\" \"bicycle-reel.mov\")",
+      "Bash(mv \"Butterfly_Dot_Work_Reel.MOV\" \"butterfly-dot-work-reel.mov\")",
+      "Bash(mv \"Crown_B.MOV\" \"crown-b-reel.mov\")",
+      "Bash(mv \"Hand_Tattoo_Action.MOV\" \"hand-tattoo-action.mov\")",
+      "Bash(mv \"In_Action.MOV\" \"in-action.mov\")",
+      "Bash(mv \"Jason_Mask.MOV\" \"jason-mask-reel.mov\")",
+      "Bash(mv \"Volleyball_Reel.MOV\" \"volleyball-reel.mov\")"
     ]
   }
 }

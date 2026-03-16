@@ -99,13 +99,27 @@ if (carouselOuter && carouselTrack) {
     return center - index * (slideW + gap);
   }
 
+  function playActiveVideo() {
+    const vid = slides[current].querySelector('video');
+    if (vid) vid.play().catch(() => {});
+  }
+
+  function pauseAllVideos() {
+    slides.forEach(s => {
+      const vid = s.querySelector('video');
+      if (vid) { vid.pause(); vid.currentTime = 0; }
+    });
+  }
+
   function goTo(index) {
     slides[current].classList.remove('active');
     dots[current].classList.remove('active');
+    pauseAllVideos();
     current = (index + slides.length) % slides.length;
     slides[current].classList.add('active');
     dots[current].classList.add('active');
     carouselTrack.style.transform = `translateX(${getTranslate(current)}px)`;
+    playActiveVideo();
     resetTimer();
   }
 
