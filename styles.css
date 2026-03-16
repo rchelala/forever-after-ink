@@ -780,10 +780,10 @@ h3 {
 }
 
 .phone-booking-link {
-  font-size: 1.05rem;
+  font-size: 0.88rem;
   font-weight: 500;
   color: var(--cream);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   transition: color var(--transition);
 }
 .phone-booking-link:hover { color: var(--gold); }
