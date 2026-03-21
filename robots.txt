@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forever-after-ink.vercel.app/sitemap.xml
